@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "purrrrrrr"
+exit 1
