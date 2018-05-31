@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 
-echo "purrrrrrr"
+purring_command="$1"
+case "$purring_command" in
+    "purr") echo "purrrrrrrr" ;;
+    "woof") echo "bark bark!" ;;
+    *) echo "Do not know how to '$purring_command'" ;;
+esac
 exit 1
